@@ -1,0 +1,26 @@
+{
+    "identifier": "it.foxleeay.php-namespace-resolver",
+    "name": "PHP Namespace (resolver)",
+    "organization": "Foxleeay",
+    "organizationIdentifier": "it.foxleeay",
+    "description": "Import selected PHP classes by resolving their namespace from the workspace.",
+    "version": "1.0",
+    "categories": ["commands"],
+    "repository": "https://github.com/Foxleeay/php-namespace-resolver",
+    "bugs": "https://github.com/Foxleeay/php-namespace-resolver/issues",
+    "main": "main.js",
+    "entitlements": {
+        "filesystem": "readonly"
+    },
+    "activationEvents": [
+        "onCommand:importClass"
+    ],
+    "commands": {
+        "editor": [
+            {
+                "title": "Import Class",
+                "command": "importClass"
+            }
+        ]
+    }
+}
