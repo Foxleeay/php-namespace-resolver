@@ -26,6 +26,6 @@
                 "title": "Import All Classes",
                 "command": "importAllClasses"
             }
-        ],
+        ]
     }
 }
