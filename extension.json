@@ -4,7 +4,7 @@
     "organization": "Foxleeay",
     "organizationIdentifier": "it.foxleeay",
     "description": "Import selected PHP classes by resolving their namespace from the workspace.",
-    "version": "1.0",
+    "version": "1.1",
     "categories": ["commands"],
     "repository": "https://github.com/Foxleeay/php-namespace-resolver",
     "bugs": "https://github.com/Foxleeay/php-namespace-resolver/issues",
@@ -13,14 +13,19 @@
         "filesystem": "readonly"
     },
     "activationEvents": [
-        "onCommand:importClass"
+        "onCommand:importClass",
+        "onCommand:importAllClasses"
     ],
     "commands": {
         "editor": [
             {
                 "title": "Import Class",
                 "command": "importClass"
+            },
+            {
+                "title": "Import All Classes",
+                "command": "importAllClasses"
             }
-        ]
+        ],
     }
 }
