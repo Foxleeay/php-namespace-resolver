@@ -4,7 +4,7 @@
     "organization": "Foxleeay",
     "organizationIdentifier": "it.foxleeay",
     "description": "Import selected PHP classes by resolving their namespace from the workspace.",
-    "version": "1.1",
+    "version": "1.2",
     "categories": ["commands"],
     "repository": "https://github.com/Foxleeay/php-namespace-resolver",
     "bugs": "https://github.com/Foxleeay/php-namespace-resolver/issues",
